@@ -10,3 +10,28 @@ h4 {
     color: rgb(11, 11, 237);
     text-align: center;
 }
+body{
+    padding: 1rem;
+    background-image: url(./d4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(45, 23, 23);
+}
+ p:hover,li:hover,a:hover, h2:hover, h4:hover{
+    background-color: white;
+    padding-bottom: 0.05rem;
+}
+ p, h2, li, h4,a {
+    transition: background-color 0.10s ease; /* Add a transition to background-color */
+}
+.center {
+    text-align: center;
+    border-color: red;
+}
+a{
+    text-align: center;
+    font-size: large;
+    font-family: initial;
+    font-weight: 100;
+}
